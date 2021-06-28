@@ -1,0 +1,50 @@
+.menu-content-left{
+    display: inline-block;
+    padding-top: 29px;
+    padding-left: 49px;
+}
+
+.menu-content-left p{
+    display: inline-block;
+    color: #9F9F9F;
+}
+
+.menu-content-right{
+    display: inline-block;
+    padding-top: 29px;
+    padding-left: 49px;
+}
+
+.menu-content-right p{
+    display: inline-block;
+    color: #9F9F9F;
+}
+
+.size p {
+    display: inline-block;
+    padding: 10px;
+    background-color: #F8F8F8;
+}
+
+.size p:hover{
+    color:red;
+}
+
+.length p {
+    display: inline-block;
+    padding: 10px;
+    background-color: #F8F8F8;
+}
+
+.length p:hover{
+    color:red;
+}
+
+.quanlity button {
+    background-color: #FE4D01;
+    margin-left: 74px;
+    width: 131px;
+    height: 51px;
+    border-radius: 0px;
+    border: none;
+}

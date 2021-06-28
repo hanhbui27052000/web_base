@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Cart</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/cart.css" rel="stylesheet">
+	<!-- <link href="css/responsive.css" rel="stylesheet"> -->
+</head>
+<!--/head-->
+
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="header-top">
+				<div class="logo">
+					<a href="home.html">
+						<img src="images/home/logo.png">
+					</a>
+				</div>
+				<div class="header-social">
+					<ul class="social">
+						<li>
+							<a href="">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<i class="fa fa-youtube"></i>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<i class="fa fa-pinterest"></i>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<i class="fa fa-instagram"></i>
+							</a>
+						</li>
+						<li>
+							<select class="form-select">
+								<option value="">EN</option>
+								<option value="1">FRA</option>
+								<option value="2">VIE</option>
+								<option value="3">CHI</option>
+							</select>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row" style="background-color: #F8F8F8;">
+		<div class="col-md-1" style="width: 11%;"></div>
+		<div class="col-md-2"
+			style="background-color: #26D2FC;padding: 0px;margin-bottom: 15px;width: 15.5%;margin-top: -65px;">
+			<div class="menu-box">
+				<div class="col-md-12" style="background-color: #333333;">
+					<h3 class=" menu-head" style="padding-left: 11px;color: white;">MENU</h3>
+				</div>
+				<div class="menu-nav">
+					<a href="index.html" class="menu-item col-md-12">HOME</a>
+					<a href="contact.html" class="menu-item col-md-12">CONTACT</a>
+					<a href="checkout.html" class="menu-item col-md-12">CHECKOUT</a>
+					<a href="cart.html" class="menu-item col-md-12">CART</a>
+					<a href="shop.html" class="menu-item col-md-12">SHOPPING CART</a>
+					<a href="" class="menu-item col-md-12">ACCESSORIES</a>
+					<a href="" class="menu-item col-md-12">SALE</a>
+					<a href="" class="menu-item col-md-12">BRANDS</a>
+					<a href="" class="menu-item col-md-12">BLOG</a>
+					<a href="" class="menu-item col-md-12">GADGETS</a>
+					<a href="" class="menu-item col-md-12">CONTACT</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8" style="background-color: #F8F8F8;margin-top: -65px;">
+			<div class="row">
+				<div class="menu-content-left col-md-9">
+					<p>Home <i class="fa fa-chevron-right" aria-hidden="true"></i><i class="fa fa-chevron-right"
+							aria-hidden="true"></i></p>
+					<p style="background-color: #FDF300;">Shopping Cart</p>
+				</div>
+				<div class="menu-content-right col-md-3">
+					<p><i class="fa fa-chevron-left" aria-hidden="true"></i><i class="fa fa-chevron-left"
+							aria-hidden="true"></i> Back to previous page</p>
+				</div>
+			</div>
+			<div class="title row" style="padding-left: 36px;margin-top: 22px;">
+				<div class="col-md-3">
+					<h3 style="color: #FE4D01;">1</h3>
+					<h3 style="color: #FE4D01;">SHOPPING CART</h3>
+				</div>
+				<div class="col-md-3">
+					<h3 style="color: #BBBBBB;">2</h3>
+					<h3 style="color: #BBBBBB;">CHECKOUT</h3>
+				</div>
+				<div class="col-md-4">
+					<h3 style="color: #BBBBBB;">3</h3>
+					<h3 style="color: #BBBBBB;">ORDER CONFIMATION</h3>
+				</div>
+			</div>
+			<div class="title-column row" style="padding-left: 36px;margin-top: 22px;">
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-4" style="text-align: center;">
+							<p>PRODUCT NAME</p>
+						</div>
+						<div class="col-md-2" style="text-align: center;">
+							<p>UNIT PRICE</p>
+						</div>
+						<div class="col-md-2" style="text-align: center;">
+							<p>QTY</p>
+						</div>
+						<div class="col-md-4" style="text-align: center;">
+							<p>SUBTOTAL</p>
+						</div>
+					</div>
+					<div class="row" id="list_product_cart">
+
+					</div>
+					<div class="row"
+						style="padding-top: 20px;border-top: 1px solid #E8E8E8;padding-bottom: 20px;border-bottom: 1px solid #E8E8E8;">
+						<div class="col-md-6">
+							<h4>HAVE YOU GOT A COUPON CODE?</h4>
+							<input type="text" style="width: 68%;height: 31px;">
+						</div>
+						<div class="btn-update-cart col-md-6">
+							<button class="btn btn-primary">
+								UPDATE SHOPPING CART
+							</button>
+							<div>
+								<a href=""
+									style="font-size: 16px;margin-left: 105px;color:black;text-decoration: underline;">or
+									continue
+									shopping</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="payment col-md-3" style="background-color: #FE4D01;">
+					<h4 style="margin-left: 47px;margin-top: 31px;margin-bottom: 37px;color: white;">REVIEW YOUR CART
+					</h4>
+					<div class="col-md-6">
+						<p>YOUR CART</p>
+						<p>SHIPPING</p>
+						<p>VAT</p>
+						<p>TOTAL</p>
+					</div>
+					<div class="col-md-6">
+						<p>1245121</p>
+						<p>FREE</p>
+						<p>124515</p>
+						<p>4884848</p>
+					</div>
+					<div class="btn-checkout col-md-12">
+						<a class="btn btn-primary" href="checkout.html">
+							CHECKOUT
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="background-color: #F8F8F8;">
+		<div class="col-md-1" style="width: 11%;"></div>
+		<div class="col-md-2" style="background-color: #26D2FC;padding: 0px;margin-bottom: 15px;width: 15.5%;">
+			<div class="menu-box">
+				<div class="col-md-12" style="background-color: #333333;">
+					<h3 class=" menu-head" style="padding-left: 11px;color: white;">CATEGORY OPTIONS</h3>
+				</div>
+				<div class="menu-nav">
+					<a href="./home.html" class="menu-item col-md-12">MEN</a>
+					<a href="./contact.html" class="menu-item col-md-12">WOMEN</a>
+					<a href="./checkout.html" class="menu-item col-md-12">KIDS</a>
+					<a href="./cart.html" class="menu-item col-md-12">VIETSUITS</a>
+					<a href="./shoppingCart.html" class="menu-item col-md-12">OUTERWEAR</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8">
+			<h2 style="font-weight: bold;margin-left: 30px;margin-top: 100px;">YOU MIGHT ALSO LIKE</h2>
+			<div class="row" style="margin-top: 35px;">
+				<div class="col-md-3">
+					<img src="images/home/img1.jpg" alt=""
+						style="padding: 10px;background-color: #FFFFFF;margin-left: 31px;">
+				</div>
+				<div class="col-md-3">
+					<img src="images/home/img2.jpg" alt=""
+						style="padding: 10px;background-color: #FFFFFF;margin-left: 31px;">
+				</div>
+				<div class="col-md-3">
+					<img src="images/home/img2.jpg" alt=""
+						style="padding: 10px;background-color: #FFFFFF;margin-left: 31px;">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="background-color: #F8F8F8;">
+		<div class="col-md-1" style="width: 11%;"></div>
+		<div class="col-md-2" style="background-color: #26D2FC;padding: 0px;margin-bottom: 15px;width: 15.5%;">
+			<div class="menu-box">
+				<div class="col-md-12" style="background-color: #333333;">
+					<h3 class=" menu-head" style="padding-left: 11px;color: white;">BRAND OPTIONS</h3>
+				</div>
+				<div class="menu-nav">
+					<a href="./home.html" class="menu-item col-md-12">BILLABONG</a>
+					<a href="./contact.html" class="menu-item col-md-12">ELEMENT</a>
+					<a href="./checkout.html" class="menu-item col-md-12">O'NEILL</a>
+					<a href="./cart.html" class="menu-item col-md-12">OAKLEY</a>
+					<a href="./shoppingCart.html" class="menu-item col-md-12">REEF</a>
+					<a href="./shoppingCart.html" class="menu-item col-md-12">QUIKSILVER</a>
+					<a href="./shoppingCart.html" class="menu-item col-md-12">RIPCURL</a>
+					<a href="./shoppingCart.html" class="menu-item col-md-12">JACKSS</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8">
+			<h2 style="font-weight: bold;margin-left: 30px;margin-top: 100px;">RECENTLY VIEWED</h2>
+			<div class="row" style="margin-top: 35px;">
+				<div class="col-md-3">
+					<img src="images/home/img1.jpg" alt=""
+						style="padding: 10px;background-color: #FFFFFF;margin-left: 31px;">
+				</div>
+				<div class="col-md-3">
+					<img src="images/home/img2.jpg" alt=""
+						style="padding: 10px;background-color: #FFFFFF;margin-left: 31px;">
+				</div>
+				<div class="col-md-3">
+					<img src="images/home/img2.jpg" alt=""
+						style="padding: 10px;background-color: #FFFFFF;margin-left: 31px;">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="padding-left: 213px;background-color: #F8F8F8;">
+		<img src="images/home/nowisopen_01.jpg" alt="">
+	</div>
+	<div class="brand" style="background-color: #F8F8F8;">
+		<div class="brand-container">
+			<div class="brand-holder">
+				<img src="images/home/brands1.jpg" alt="">
+			</div>
+			<div class="brand-holder">
+				<img src="images/home/brand2.jpg" alt="">
+			</div>
+			<div class="brand-holder">
+				<img src="images/home/brand3.jpg" alt="">
+			</div>
+			<div class="brand-holder">
+				<img src="images/home/brand4.jpg" alt="">
+			</div>
+			<div class="brand-holder">
+				<img src="images/home/brand5.jpg" alt="">
+			</div>
+			<div class="brand-holder">
+				<img src="images/home/brand6.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="insta-feed" style="background-color: #F8F8F8;margin: 0px 0%;padding: 0px 10%;">
+		<div class="social-banner">
+			<a href="#" class="social-banner-holder facebook">
+				<i class="fa fa-facebook"></i>
+			</a>
+			<a href="#" class="social-banner-holder twitter">
+				<i class="fa fa-twitter"></i>
+			</a>
+			<a href="#" class="social-banner-holder pinterest">
+				<i class="fa fa-pinterest"></i>
+			</a>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="row" style="background-color: #333333;padding-top: 70px;padding-bottom: 60px;">
+			<div class="col-md-1"></div>
+			<div class="col-md-2">
+				<div class="col-md-12">
+					<h3>Category</h3>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Home</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">About us</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Eshop</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Features</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">New Collections</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Blog</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Contact</a>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="col-md-12">
+					<h3>Our Account</h3>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Your Account</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Personal information</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Addresses</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Discount</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Orders history</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Addresses</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Search Terms</a>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="col-md-12">
+					<h3>Our Support</h3>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Site Map</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Search Terms</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Advanced Search</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Mobile</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Contact Us</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Mobile</a>
+				</div>
+				<div class="col-md-12">
+					<a href="#">Addresses</a>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<h3>
+					Newsletters
+				</h3>
+				<div class="row">
+					<p style="color: white;font-size: 17px;">Join thoundsands of other people subcribe to our news
+					</p>
+				</div>
+				<div class="row">
+					<div class="col-md-10" style="padding-right: 0px;">
+						<input type="text" class="form-control" placeholder="INSERT EMAIL" style="border-radius: 0px;">
+					</div>
+					<div class="col-md-2" style="padding-left: 0px;">
+						<button class="btn btn-secondary" type="button" style="border-radius: 0px;">Submit</button>
+					</div>
+				</div>
+				<div class="credit-card-container" style="display:inline-flex;padding-top: 20px;">
+					<div class="credit-card-holder">
+						<img src="images/home/Master-Card-Blue-icon.png" style="width: 55px;">
+					</div>
+					<div class="credit-card-holder">
+						<img src="images/home/Master-Card-Blue-icon.png" style="width: 55px;">
+					</div>
+					<div class="credit-card-holder">
+						<img src="images/home/Master-Card-Blue-icon.png" style="width: 55px;">
+					</div>
+					<div class="credit-card-holder">
+						<img src="images/home/Master-Card-Blue-icon.png" style="width: 55px;">
+					</div>
+					<div class="credit-card-holder">
+						<img src="images/home/Master-Card-Blue-icon.png" style="width: 55px;">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2" style="padding-left: 87px;">
+				<div class="row">
+					<h3>
+						About us
+					</h3>
+				</div>
+				<div class="row">
+					<p style="color: white;font-size: 17px;">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ratione fuga repellat. Ex eos
+						fugiat modi quia incidunt dignissimos illo. Veritatis veniam consequatur aliquam corporis
+						molestiae? Consequuntur necessitatibus eius beatae.
+					</p>
+				</div>
+				<div class="row">
+					<p style="color: white;font-size: 17px;">
+						Phone: 1234451111
+					</p>
+				</div>
+				<div class="row">
+					<p style="color: white;font-size: 17px;">
+						Email: <a href="#">info@surfhouse.com</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-bottom">
+		<div class="copyright">
+			<i class="far fa-copyright"></i>
+			2014 SURFHOUSE. All rights reserved - Designed by theuncreativelab.com
+		</div>
+		<div class="social-icon">
+			<div class="icon-holder">
+				<a href="#">
+					<i class="fa fa-facebook"></i>
+				</a>
+			</div>
+			<div class="icon-holder">
+				<a href="#">
+					<i class="fa fa-twitter"></i>
+				</a>
+			</div>
+			<div class="icon-holder">
+				<a href="#">
+					<i class="fa fa-pinterest"></i>
+				</a>
+			</div>
+			<div class="icon-holder">
+				<a href="#">
+					<i class="fa fa-google-plus"></i>
+				</a>
+			</div>
+			<div class="icon-holder">
+				<a href="#">
+					<i class="fa fa-instagram"></i>
+				</a>
+			</div>
+			<div class="icon-holder">
+				<a href="#">
+					<i class="fa fa-wifi"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/cart.js"></script>
+
+</html>

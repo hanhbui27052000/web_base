@@ -1,0 +1,77 @@
+.menu-content-left{
+    display: inline-block;
+    padding-top: 29px;
+    padding-left: 49px;
+}
+
+.menu-content-left p{
+    display: inline-block;
+    color: #9F9F9F;
+}
+
+.menu-content-right{
+    display: inline-block;
+    padding-top: 29px;
+    padding-left: 49px;
+}
+
+.menu-content-right p{
+    display: inline-block;
+    color: #9F9F9F;
+}
+
+.title h3{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.title-column p{
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.payment p{
+    margin-bottom: 27px;
+    color: white;
+}
+
+.btn-fill button{
+    font-size: 19px;
+    width: 254px;
+    margin-top: 34px;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    border-radius: 0px;
+}
+
+.btn-login button{
+    font-size: 19px;
+    width: 254px;
+    margin-top: 69px;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    border-radius: 0px;
+}
+
+.btn-checkout button{
+    font-size: 19px;
+    width: 254px;
+    margin-bottom: 51px;
+    margin-top: 34px;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    border-radius: 0px;
+}
+
+.btn-place-order button{
+    font-size: 19px;
+    width: 254px;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    border-radius: 0px;
+}

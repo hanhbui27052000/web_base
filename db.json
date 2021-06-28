@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Single Thruster 2014",
+      "image": "images/home/img1.jpg",
+      "price": 850
+    },
+    {
+      "id": 2,
+      "name": "Freestyle Wave FSW",
+      "image": "images/home/img2.jpg",
+      "price": 770
+    },
+    {
+      "id": 3,
+      "name": "OG SCALLOP SOLID",
+      "image": "images/home/img4.jpg",
+      "price": 765
+    },
+    {
+      "id": 4,
+      "name": "USHINGHAM LIGHTNING 2014",
+      "image": "images/home/img7.jpg",
+      "price": 2960
+    },
+    {
+      "id": 5,
+      "name": "STRIPE 19 QS",
+      "image": "images/home/img5.jpg",
+      "price": 230
+    },
+    {
+      "id": 6,
+      "name": "YOKE 19 QS",
+      "image": "images/home/img6.jpg",
+      "price": 1130
+    },
+    {
+      "id": 7,
+      "name": "SYNCRO HEAT VES M",
+      "image": "images/home/img8.jpg",
+      "price": 849
+    },
+    {
+      "id": 8,
+      "name": "SYNCRO WOMENS QS M",
+      "image": "images/home/img9.jpg",
+      "price": 1110
+    }
+  ]
+}

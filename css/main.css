@@ -1,0 +1,441 @@
+﻿/*************************
+*******Header CSS******
+**************************/
+.container {
+    display: inline-block;
+    
+}
+
+.header {
+    background: url("https://picsum.photos/1000/800") no-repeat center top;
+    background-position: center;
+    background-size: 100%;
+    padding: 0% 9%;
+}
+
+.header-top {
+    padding-top: 2em;
+    padding-bottom: 3em;
+    display: inline-block;
+    width: 120%;
+}
+
+.logo {
+    float: left;
+    margin-left: 3em;
+}
+
+.header-social {
+    float: right;
+    margin-top: 3em;
+    width: 30%;
+}
+
+.social {
+    list-style: none;
+    float: left;
+    padding-left: 3em;
+}
+
+ul.social li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+ul.social li:hover {
+    background-color: red;
+}
+
+ul.social li i {
+    color: white;
+}
+
+.form-select{
+    border: none;
+    background: none;
+    padding-right: 27px;
+    color: white;
+}
+
+
+/*************************
+*******BANNER CSS******
+**************************/
+.banner {
+    display: inline-block;
+}
+
+.banner-wrap {
+    display: flex;
+}
+/*************************
+*******BANNER LEFT******
+**************************/
+.banner-left {
+    float: left;
+    width: 20%;
+}
+
+.banner-left-top {
+    list-style: none;
+    display: block;
+    background-color: #f8f8f8;
+    margin-bottom: 0px;
+    padding: 0px 10%;
+}
+
+.banner-left-top p {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 0px;
+    color: #FB4D01;
+}
+
+.cart {
+    background-color: #FB4D01;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.cart-left {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cart-left i {
+    display: inline-block;
+    padding: 10px;
+}
+
+.cart-right {
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+    padding-right: 1em;
+}
+
+.cart-right a:hover {
+    color: yellow;
+}
+
+.quick-access {
+    list-style: none;
+    display: flex;
+    background-color: #EE4A02;
+    margin-bottom: 0px;
+    padding: 0px 0%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.quick-access .viewcart {
+    display: inline-block;
+    padding: 10px;
+}
+
+.quick-access .viewcart a {
+    color: white;
+}
+
+.quick-access .checkout a {
+    color: white;
+}
+
+.search {
+    display: flex;
+}
+
+.inp-text {
+    width: 87%;
+    border: none;
+    padding-top: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+.inp-text:focus {
+    outline: none;
+}
+
+.inp-submit {
+    border: none;
+    border-radius: 0%;
+    width: 13%;
+    padding: inherit;
+    background-color: #333333;
+}
+
+.inp-submit:hover {
+    background-color: var(--color-orange);
+    border-color: orangered;
+}
+
+.welcome-box {
+    background-color: #FFF51F;
+    margin-top: 1em;
+    padding: 4em 8%;
+    text-align: justify;
+    font-weight: 800;
+}
+
+.welcome-box h2 {
+    margin-bottom: 1em;
+}
+/*************************
+*******BANNER RIGHT******
+**************************/
+
+.banner-right {
+    color: #FFF51F;
+    width: 40%;
+    margin-top: 3em;
+    margin-top: 5em;
+    margin-left: 10em;
+    padding-left: 7em;
+}
+
+.banner-right h1 {
+    font-weight: 900;
+    font-size: xxx-large;
+}
+
+.banner-right a {
+    background-color: yellow;
+    border-color: yellow;
+    color: black;
+    font-weight: 600;
+    margin-top: 3em;
+    padding: 10px 20px;
+}
+
+.banner-right a:hover {
+    background-color: var(--color-orange);
+    border-color: orangered;
+}
+
+.slide-button {
+    display: flex;
+    align-items: center;
+}
+
+.slide-button a {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    border-radius: 0%;
+    border-color: white;
+    background-color: white;
+    color: var(--color-black);
+}
+
+.slide-button a:hover {
+    background-color: var(--color-orange);
+    border-color: orangered;
+}
+
+.slide-control {
+    display: flex;
+    justify-content: center;
+}
+
+.slide-navigation {
+    margin: 0px 1em;
+}
+
+.slide-navigation a {
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: yellow;
+    text-indent: -9999px;
+    margin-bottom: 2em;
+}
+
+.slide-navigation .activate {
+    background-color: var(--color-orange) !important;
+}
+
+
+/*************************
+*******BRAND CSS******
+**************************/
+
+.menu-nav a{
+    width: 100%;
+    padding-left: 27px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.tags-holder a{
+    padding: 10px;
+    background-color: #E9E9E9;
+    border-radius: inherit;
+    color: black;
+}
+
+
+
+.brand {
+    padding: 0% 10%;
+    
+}
+
+.brand-container {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em 0em;
+}
+
+.brand-holder {
+    height: 3em;
+    width: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-holder img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/*************************
+*******insta-feed******
+**************************/
+
+.insta-feed {
+    margin: 0px 10%;
+}
+
+.insta-header {
+    display: flex;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.insta-header i {
+    margin-right: 5px;
+    font-size: 2em;
+}
+
+.insta-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 4em;
+}
+
+.insta-img-holder {
+    padding: 0.5em;
+    background-color: #fff;
+}
+
+/*************************
+*******social-banner******
+**************************/
+
+.social-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.social-banner-holder {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+    color: white;
+}
+
+.social-banner-holder:hover {
+    color: rgb(80, 80, 241);
+}
+
+.social-banner-holder i{
+    padding: 10%;
+}
+
+.facebook {
+    background-color: #3b5997;
+}
+
+.twitter {
+    background-color: #3fccfd;
+}
+
+.pinterest {
+    background-color: #cb2027;
+}
+
+/*  */
+
+.footer .col-md-12 {
+    padding-bottom: 10px;
+}
+
+.footer .col-md-12 a{
+    color: white;
+    font-size: 17px;
+}
+
+.footer .col-md-12 h3{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer .col-md-2 h3{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*  */
+
+.footer-bottom {
+    background-color: #232121;
+    color: white;
+    padding: 0.5em 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-icon {
+    display: flex;
+}
+
+.social-icon a {
+    display: block;
+    color: white;
+    padding: 0px 10px;
+}
+
+.btn-addcart button{
+    font-size: 17px;
+    width: 254px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 0px;
+}

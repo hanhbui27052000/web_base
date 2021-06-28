@@ -1,0 +1,22 @@
+
+.menu-content-left{
+    display: inline-block;
+    padding-top: 29px;
+    padding-left: 49px;
+}
+
+.menu-content-left p{
+    display: inline-block;
+    color: #9F9F9F;
+}
+
+.menu-content-right{
+    display: inline-block;
+    padding-top: 29px;
+    padding-left: 49px;
+}
+
+.menu-content-right p{
+    display: inline-block;
+    color: #9F9F9F;
+}
